@@ -1,0 +1,26 @@
+{
+  "name": "mocha",
+  "version": "1.0.0",
+  "description": "This automation suite consist of test cases for finding some flights data",
+  "main": "index.js",
+  "author": "Hassan Khan",
+  "license": "ISC",
+  "scripts": {
+    "tests": "protractor mochaconf.js"
+  },
+  "devDependencies": {
+    "@types/chai": "4.2.21",
+    "@types/jasminewd2": "2.0.10",
+    "@types/mocha": "8.2.3",
+    "@types/node": "13.13.52"
+  },
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "protractor": "^7.0.0",
+    "ts-node": "^8.10.1"
+  },
+  "mocha": {
+    "timeout": "60000"
+  }
+}

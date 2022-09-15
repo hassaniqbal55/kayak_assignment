@@ -1,0 +1,12 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+      "module": "commonjs",
+      "target": "ES2016",
+      "moduleResolution": "node",
+      "outDir": "./JSFiles",
+      "typeRoots": [
+        "../node_modules/@types"
+      ]
+  }
+}
